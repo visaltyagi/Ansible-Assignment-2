@@ -1,0 +1,7 @@
+---
+- name: creating the file using script
+  hosts: all
+  become: true
+  tasks:
+  - name: running script
+    script: assignment2.sh
